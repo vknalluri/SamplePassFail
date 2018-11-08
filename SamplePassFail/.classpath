@@ -2,5 +2,18 @@
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/Charvik/Downloads/selenium-server-standalone-3.141.0.jar"/>
+	<classpathentry kind="lib" path="C:/selenium-java-2.41.0/selenium-2.41.0/libs/testng-6.8.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Charvik/Desktop/TestNG_Jenkins-master/TestNG_Jenkins-master/lib/commons-logging-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Charvik/Desktop/TestNG_Jenkins-master/TestNG_Jenkins-master/lib/javaee-api-8.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Charvik/Desktop/TestNG_Jenkins-master/TestNG_Jenkins-master/lib/junit.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Charvik/Desktop/TestNG_Jenkins-master/TestNG_Jenkins-master/lib/selenium-server-standalone-3.13.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Charvik/Desktop/TestNG_Jenkins-master/TestNG_Jenkins-master/lib/testlink-api-client-2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Charvik/Desktop/TestNG_Jenkins-master/TestNG_Jenkins-master/lib/testng-6.8.21.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Charvik/Desktop/TestNG_Jenkins-master/TestNG_Jenkins-master/lib/ws-commons-util-1.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Charvik/Desktop/TestNG_Jenkins-master/TestNG_Jenkins-master/lib/xmlrpc-client-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Charvik/Desktop/TestNG_Jenkins-master/TestNG_Jenkins-master/lib/xmlrpc-client-3.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Charvik/Desktop/TestNG_Jenkins-master/TestNG_Jenkins-master/lib/xmlrpc-common-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Charvik/Desktop/TestNG_Jenkins-master/TestNG_Jenkins-master/lib/xmlrpc-common-3.1-sources.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
