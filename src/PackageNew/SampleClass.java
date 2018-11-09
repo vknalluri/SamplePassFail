@@ -20,9 +20,9 @@ public class SampleClass {
 	public void Test1()throws Exception
 	{
 		SampleClass a=new SampleClass();
-		System.setProperty("webdriver.gecko.driver","C:\\geckodriver.exe");
-        WebDriver driver = new FirefoxDriver();
-	//WebDriver driver=new ChromeDriver();
+		//System.setProperty("webdriver.gecko.driver","C:\\geckodriver.exe");
+       // WebDriver driver = new FirefoxDriver();
+	WebDriver driver=new ChromeDriver();
 	//WebDriverWait wait=new WebDriverWait(driver, 6);
 	String testProject="Web Application";
 	String testPlan="regression1";
