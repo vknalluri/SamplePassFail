@@ -1,9 +1,9 @@
-set projectLocation=C:\Users\Charvik\git\repository2\SamplePassFail
+set projectLocation=E:\git\SamplePassFail
 
-cd C:\Users\Charvik\git\repository2\SamplePassFail
+cd E:\git\SamplePassFail
 
-set classpath=C:\Users\Charvik\git\repository2\SamplePassFail\bin\;C:\Users\Charvik\git\repository2\SamplePassFail\lib\*
+set classpath=E:\git\SamplePassFail\bin\;E:\git\SamplePassFail\lib\*
 
-java org.testng.TestNG C:\Users\Charvik\git\repository2\SamplePassFail\testng.xml
+java org.testng.TestNG E:\git\SamplePassFail\testng.xml
 
 pause
