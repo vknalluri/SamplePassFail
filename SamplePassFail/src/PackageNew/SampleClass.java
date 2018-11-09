@@ -2,6 +2,7 @@ package PackageNew;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 import testlink.api.java.client.TestLinkAPIClient;
 import testlink.api.java.client.TestLinkAPIException;
@@ -13,13 +14,15 @@ public class SampleClass {
 
 	public static void reportResult(String TestProject,String TestPlan,String Testcase,String Build,String Notes,String Result) throws TestLinkAPIException{
 	TestLinkAPIClient api=new TestLinkAPIClient(DEVKEY, URL);
-	api.reportTestCaseResult(TestProject, TestPlan,Testcase, Build, Notes, Result);
+	api.reportTestCaseResult(TestProject, TestPlan,Testcase,Build, Notes, Result);
 	}
 	@Test
 	public void Test1()throws Exception
 	{
 		SampleClass a=new SampleClass();
-	WebDriver driver=new ChromeDriver();
+		System.setProperty("webdriver.gecko.driver","C:\\geckodriver.exe");
+        WebDriver driver = new FirefoxDriver();
+	//WebDriver driver=new ChromeDriver();
 	//WebDriverWait wait=new WebDriverWait(driver, 6);
 	String testProject="Web Application";
 	String testPlan="regression1";
